@@ -1,0 +1,24 @@
+body { 
+    background-color: #000;
+    font-family: Arial,Helvetica;
+    color: white;
+}
+
+#inputVideo{
+    z-index: 999;
+    position:fixed;
+}
+
+#video-overlay{
+    z-index: 9999;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 240px;
+}
+
+#video-overlay > p{
+    padding-left: 50%;
+    padding-top: 35%;
+}
